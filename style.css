@@ -1,0 +1,71 @@
+/* COPYRIGHT (C) 2024 - SWATHYMOL SAJEEV | GNU General Public License v3.0
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, 
+either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful,but WITHOUT ANY WARRANTY; 
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program.  If not, see <https://www.gnu.org/licenses/>. */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #4a4a4d;
+}
+
+h1{
+    color: whitesmoke;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 420px;
+    margin-top: 40px;
+}
+
+.activity{
+    background-color: rgb(214, 214, 214);
+    box-shadow: 0 0 2px rgb(151, 151, 151);
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+    transition: 3s ease;
+    overflow: hidden;
+    border-radius: 2px;
+
+}
+
+.activity:hover{
+    transition-duration: 0s;
+    overflow: hidden;
+}
+
+
+.footer {
+    font-family: sans-serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 5px;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+}
